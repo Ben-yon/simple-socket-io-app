@@ -1,0 +1,28 @@
+{
+  "name": "simple-socket-io-app",
+  "version": "1.0.0",
+  "description": "simple socket-io-server",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ben-yon/simple-socket-io-app.git"
+  },
+  "keywords": [
+    "socket",
+    "io"
+  ],
+  "author": "Benjamin Ikeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ben-yon/simple-socket-io-app/issues"
+  },
+  "homepage": "https://github.com/Ben-yon/simple-socket-io-app#readme",
+  "dependencies": {
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.1.3"
+  }
+}
